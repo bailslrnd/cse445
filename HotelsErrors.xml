@@ -7,10 +7,10 @@
 <!ELEMENT Address (Number, Street, City, State, Zip)>
 <!ATTLIST Address NearestAirport #PCDATA #REQUIRED>
 <!ELEMENT Rating (#PCDATA)>
-<!ELEMENT Number (CDATA)>
+<!ELEMENT Number (#PCDATA)>
 <!ELEMENT City (#PCDATA)>
 <!ELEMENT State (#PCDATA)>
-<!ELEMENT Zip (CDATA)>
+<!ELEMENT Zip (#PCDATA)>
 ]>
 <Hotel>
 	<Hotel>
