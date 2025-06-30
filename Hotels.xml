@@ -1,4 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Hotels [
+<!ELEMENT Hotel (Name, (Phone+), Address)>
+<!ATTLIST Hotel Rating CDATA #IMPLIED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Address (Number, Street, City, State, Zip)>
+<!ATTLIST Address NearestAirport #PCDATA #REQUIRED>
+<!ELEMENT Rating (#PCDATA)>
+<!ELEMENT Number (CDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Zip (CDATA)>
+]>
 <Hotels>
 	<Hotel>
 		<Name>Westin</Name>
