@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Hotels [
+<!ELEMENT Hotels (Hotel+)>
 <!ELEMENT Hotel (Name, (Phone+), Address)>
 <!ATTLIST Hotel Rating CDATA #IMPLIED>
 <!ELEMENT Name (#PCDATA)>
