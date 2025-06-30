@@ -6,7 +6,7 @@
 <!ELEMENT Name (#PCDATA)>
 <!ELEMENT Phone (#PCDATA)>
 <!ELEMENT Address (Number, Street, City, State, Zip)>
-<!ATTLIST Address NearestAirport #PCDATA #REQUIRED>
+<!ATTLIST Address NearestAirport CDATA #REQUIRED>
 <!ELEMENT Rating (#PCDATA)>
 <!ELEMENT Number (#PCDATA)>
 <!ELEMENT Street (#PCDATA)>
