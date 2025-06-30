@@ -8,6 +8,7 @@
 <!ATTLIST Address NearestAirport #PCDATA #REQUIRED>
 <!ELEMENT Rating (#PCDATA)>
 <!ELEMENT Number (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
 <!ELEMENT City (#PCDATA)>
 <!ELEMENT State (#PCDATA)>
 <!ELEMENT Zip (#PCDATA)>
